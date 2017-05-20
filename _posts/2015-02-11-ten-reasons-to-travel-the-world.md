@@ -3,7 +3,8 @@ layout: post
 title:  "10 Reasons to travel the world"
 date: 2015-02-11 08:50:28
 categories: travel storytime
-author_name : Priyanka Roy
+author_name : Priyanka
+author_lname : Roy
 author_url : /author/priyanka
 author_avatar: priyanka
 show_avatar : true
