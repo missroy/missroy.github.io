@@ -12,7 +12,7 @@ layout: with-sidebar
     </div>
 </div>
 
-<h2 class="favorites">All Post by {{ page.author_name }}</h2>
+<h2 class="favorites">All Post by {{ page.author_name }} {{ page.author_lname }}</h2>
 
 <div class="posts-block animated fadeIn ">
 
@@ -25,7 +25,7 @@ layout: with-sidebar
             {{ post.excerpt }}
 
             <p class="meta">
-                <span>{{ post.author_name }}</span>
+                <span>{{ post.author_name }} {{ post.author_lname }}</span>
                 <span>{{ post.date | date: "%b %-d, %Y" }}</span>
             </p>
           </div>
