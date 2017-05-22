@@ -25,8 +25,10 @@ layout: default
 
         </div><!-- main-content/col -->
     </div> <!--/row -->
+      {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 
 </main> <!-- /container -->
+{% if page.comments != false %}{% include disqus.html %}{% endif %}
 
 <footer class="single">
     {% include footer-single.html %}
