@@ -5,7 +5,9 @@ description: > # Writer Theme is a responsive template
  focussed on typography, minimal design and
   quality photography built using the Jekyll platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://missroy.github.io" # the base hostname & protocol for your site
+disqus_shortname: "missroy"
+comments: true
 enable_retina: false
 permalink: :title
 nav_list:
@@ -15,10 +17,10 @@ nav_list:
   About : ['About', '/about', 'fa-anchor']
   Contact : ['Contact', '/contact', 'fa-plane']
   Author : ['Author', '/author/priyanka', 'fa-user']
-single_footer: '<p>The writer community loves your content. Writer &copy; 2016 <a href="/">latest posts</a></p>'
+single_footer: '<p>The writer community loves your content. Writer &copy; 2017 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
-    Writer: ['Writer 2016', '/author/priyanka']
+    Writer: ['Writer 2017', '/author/priyanka']
 
 
 # Build settings
